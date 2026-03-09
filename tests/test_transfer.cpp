@@ -31,9 +31,8 @@ int spawn_server(const std::string &out_dir) {
 int main() {
     const fs::path root = fs::current_path();
     const fs::path test_dir = root / "testdata";
-    const fs::path out_dir = test_dir / "output";
-    const fs::path in_dir = test_dir / "input";
-    const fs::path input_file = in_dir / "input.bin";
+    const fs::path out_dir = test_dir / "out";
+    const fs::path input_file = test_dir / "input.bin";
     const fs::path output_file = out_dir / "input.bin";
 
     fs::create_directories(out_dir);
