@@ -1,0 +1,10 @@
+# Build artifacts
+/bin/
+/build/
+
+# Test artifacts
+/testdata/
+
+# OS files
+.DS_Store
+*~
